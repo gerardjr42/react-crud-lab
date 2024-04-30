@@ -44,7 +44,7 @@ export default function ShowsForm() {
         setShow(response);
       })
       .catch((error) => {
-        console.log(error);
+        console.error(error);
       });
   }, [id]);
 
